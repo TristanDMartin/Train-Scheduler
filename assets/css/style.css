@@ -1,0 +1,56 @@
+.container{
+    margin: 20px;
+}
+
+.jumbotron {
+    position : relative;
+    background-position: 0% 55%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: white;
+    letter-spacing: .15em;
+}
+
+
+a {
+    color : blue;
+    text-decoration: none;    
+}
+
+.card{
+    border : solid;
+    border-radius: 10px;
+}
+
+
+
+.thead-default{
+    background-color : lightgrey; 
+}
+.tableBody{
+    height : 100px;
+    overflow : auto;
+}
+
+.panel, .card-heading {
+    background-color : silver;
+    letter-spacing: .15em;
+}
+
+.form-control, .tableRow {
+    box-shadow : inset 1px 0 10px;
+}
+
+.btn{
+    background-color : blue; 
+    cursor: pointer;
+    width : 100%;
+    opacity : 0.79;
+    border : none;
+    font-weight: bold;
+    letter-spacing: .15em;
+    box-shadow: 0 8px 6px -6px grey;
+}
+.btn:hover{
+    opacity: 1;
+}
